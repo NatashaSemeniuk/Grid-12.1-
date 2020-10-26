@@ -14,6 +14,7 @@ img {
 
 .grid1 {
     display: grid;
+    opacity: 0.6;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1.5fr;
     gap: 55px;
@@ -21,10 +22,19 @@ img {
 
 .grid2 {
     display: grid;
+    opacity: 0.6;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
 .grid2 img {
     margin: -5px;
+}
+
+.grid1:hover {
+    opacity: 1;
+}
+
+.grid2:hover {
+    opacity: 1;
 }
